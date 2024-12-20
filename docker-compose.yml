@@ -1,0 +1,6 @@
+services:
+  webserver:
+    image: imageName #이미지 네임
+    ports:
+      -8080:8080
+    # entrypoint: entrypoint
